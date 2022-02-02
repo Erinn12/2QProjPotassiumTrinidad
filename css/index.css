@@ -103,7 +103,7 @@
             float:left;
             margin-left: 20px;
         }
-        #sprite hover{
+        #sprite a:hover{
             background: url('images/sprite.png') no-repeat -122px -28px;
         }
         #sprite2 {
@@ -114,7 +114,7 @@
             float: left;
             margin-left: 20px;
         }
-        #sprite2 hover{
+        #sprite2 a:hover{
             background: url('images/sprite.png') no-repeat 214px -288px;
         }
         #sprite3 {
@@ -125,7 +125,7 @@
             float:left;
             margin-left: 20px;
         }
-        #sprite3 hover{
+        #sprite3 a:hover{
             background: url('images/sprite.png') no-repeat -28px -288px;
         }
         #name {
