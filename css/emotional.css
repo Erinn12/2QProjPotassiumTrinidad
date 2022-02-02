@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-		<title>SSW Physical</title>
+		<title>SSW Emotional</title>
         <meta charset="UTF-8">
 		<meta name="author" content="Erin  Nicole A. Trinidad">
         <meta name="description" content="2nd Qtr Project">
 		<meta name="keywords" content="HTML, CSS, JavaScript">
         <meta name="keywords" content="Potassium">
 		<meta name="date" content="11-06-2021">
-        <meta name="revised" content="02-03-2021">
+        <meta name="revised" content="12-30-2021">
 
 		<link rel="icon" href="icon.png" type="image/png">
     </head>
@@ -57,13 +57,13 @@
             min-height: 190px;
             margin-bottom: 10px;
         }
-        #bath {
+        #friends {
             float: right;
         }
-        #water {
+        #gratitude {
             float: right;
         }
-        #stretch {
+        #hobby {
             float: right;
         }
         #one {
@@ -166,69 +166,61 @@
     </style>
     <body>
         <header>
-            <h1>Physical Care</h1>
+            <h1>Emotional Care</h1>
         </header>
         <nav>
             <a class="nav" href= "../index.html">home | </a>
+            <a class="nav" href= "physical.html">physical | </a>
             <a class="nav" href= "psychological.html">psychological | </a>
-            <a class="nav" href= "emotional.html">emotional | </a>
             <a class="nav" href= "spiritual.html">spiritual | </a>
             <a class="nav" href= "social.html">social </a>
         </nav>
         <section class="definition">
-                <img id="physical" src="../images/physical.png"> 
-                <h3>What is Physical Care and Why is it Important?</h3>
-                <p>Physical health is an essential part of self-care. It can boost your mood and clear your head. Physical activity is healthy for our bodies and minds as the body and the mind have a strong connection. It would be difficult to be in a good mood when you are not feeling good about your body.</p>
+                <img id="emotional" src="../images/emotional.png"> 
+                <h3>What is Emotional Care and Why is it Important?</h3>
+                <p>Emotional self-care is about becoming aware of what you are feeling, and identify which ones to maintain and control. It is a way of taking control of who you are. People who are emotionally healthy are able to cope with life's challenges. They can keep decide on problems objectively and bounce back from life's setbacks.</p>
         </section>
         <section class=example>
-            <h3>How can Physical Care be Practiced?</h3>
-            <div class="ex" id="one"> Good Personal Hygiene
+            <h3>How can Emotional Care be Practiced?</h3>
+            <div class="ex" id="one">Talk to your friends
                 <br/>
-                <img id="bath" src="../images/bath.png">
+                <img id="friends" src="../images/friends.png">
                 <br/>
-                <p>Take a bath and change your underwear daily. Wash your hands after going to the restroom or before eating. Keep your hair neat always. Brush your teeth twice a day for two minutes and visit your dentist regularly. Cut your nails weekly and keep them short and clean.</p>
+                <p>Long-term loneliness may lead to reduced cognitive skills and depression. Talking to your friends about how you are coping with school and life makes you feel that you aren't alone. Talking to others gives you a sense of safety, belonging and security. It allows you to confide in others and let them confide in you.</p>
             </div>
-            <div class="ex" id="two"> Eat a healthy meal 
+            <div class="ex" id="two">Play sports
                 <br/>
-                <img id="food" src="../images/food.png">
+                <img id="sport" src="../images/sport.png">
                 <br/>
-                <p>Eat a nutritious and well-balanced diet. Enjoy home-cooked meals. You should include more fruits and vegetables in your daily intake. Avoid junk foods, fried foods, and sweets. Eat your breakfast daily and drink your vitamins. </p>
+                <p>Sports help you manage stress. Releasing all your pent up stress through physical activity will help you empty your system, making you feel relaxed and happier.  Exercising helps your body to release endorphins which are chemicals in your brain that relieve pain and stress. Even just a few minutes of exercise each day can help you feel calmer.</p>
             </div>
-            <div class="ex" id="one">Drink water
+            <div class="ex" id="one">Practice gratitude
                 <br/>
-                <img id="water" src="../images/water.png">
+                <img id="gratitude" src="../images/gratitude.png">
                 <br/>
-                <p>Keep yourself hydrated. Drink 6-8 glasses of water per day. Bring a bottle of water everywhere you go and make it a habit to sip regularly to keep your body healthy and give you lots of energy every day. </p>
+                <p>Practicing gratitude makes you appreciate even the little things in life. It eventually changes all your negative thoughts into positive ones. It also helps you build strong relationships with others. Being thankful makes you feel that life is enjoyable and worth living.</p>
             </div>
-            <div class="ex" id="two">Get 8-10 hours of sleep
+            <div class="ex" id="two">Take naps.
                 <br/>
-                <img id="night" src="../images/night.png">
+                <img id="nap" src="../images/nap.png">
                 <br/>
-                <p>Get at least 8-10 hours of sleep every night. Having enough sleep helps you concentrate. Develop an excellent nighttime sleeping routine for yourself. Turn off your phones and all electronic gadgets at least 30 minutes before your bedtime. </p>
+                <p>Sleep is very important in order for our bodies to be healthy. Poor sleep leads to stress and anger. Chronic insomnia may increase your risk of developing anxiety and depression. Taking naps after doing exhausting activities will enhance your well-being and will help you do work in a better mood. </p>
             </div>
-            <div class="ex" id="one">Exercise at least thrice a week
+            <div class="ex" id="one">Take naps.
                 <br/>
-                <img id="stretch" src="../images/stretch.png">
+                <img id="hobby" src="../images/hobby.png">
                 <br/>
-                <p>Exercise at least thrice a week to keep your body healthy and reduce your stress levels. Avoid sitting down all day watching Netflix, movie marathons, or K-dramas or playing video games. You can include other fitness activities, such as yoga, biking, running, or playing badminton. There are a lot of good workout videos online. Check out the video below: </p>
-                <br/>
-                <div id="frame"> <iframe width="300" height="200"
-                src="https://www.youtube.com/embed/2MoGxae-zyo?autoplay=1&mute=1">
-                </iframe> </div>
+                <p>Sleep is very important in order for our bodies to be healthy. Poor sleep leads to stress and anger. Chronic insomnia may increase your risk of developing anxiety and depression. Taking naps after doing exhausting activities will enhance your well-being and will help you do work in a better mood.</p>
             </div>
         </section>
         <section class="references">
                 <h3>References:</h3>
-                <p class="ref">Calkins, W. (2020, October 20). Physical Self-Care: Self-Care Series (Part 1). Oregon Counseling. https://oregoncounseling.com/article/self-care-series-part-1-physical-self-care/ </p>
-                <p class="ref">Cloud, K. (n.d.). Care Bears Halloween Costume [Illustration]. Pinterest. https://www.pinterest.ph/pin/408631366187990371/ </p>
-                <p class="ref">Exercise Clipart Picture. (n.d.). [Illustration]. Clipart World. https://clipart.world/exercise-clipart/exercise-clipart-picture/ </p>
-                <p class="ref">Francois, M. L. (2016, October 23). 8 Quick Self-Care Strategies for College Students. Mindsoother Therapy Center. https://www.mindsoother.com/blog/8-quick-self-care-strategies-for-college-students</p>
-                <p class="ref">Glowiak, M. (2020, April 14). What is Self-Care and Why is it Important For You? Southern New Hampshire University. https://www.snhu.edu/about-us/newsroom/health/what-is-self-care </p>
-                <p class="ref">Self-Care. (n.d.). University of Toledo. https://www.utoledo.edu/studentaffairs/counseling/selfhelp/copingskills/selfcare.html </p>
-                <p class="ref">Keep It Tight Sisters. (n.d.). Self-care Is A Priority. [Illustration]. Pinterest. https://clipart.world/exercise-clipart/exercise-clipart-picture/ </p>
-                <p class="ref"> Meditation. [Icon]. (n.d.). Flaticon. https://www.flaticon.com/free-icon/meditation_3048398?term=exercise&page=1&position=35&page=1&position=35&related_id=3048398&origin=search</p>
-                <p class="ref"> The Importance of Self-Care. (n.d.). Perimeter Healthcare. https://www.perimeterhealthcare.com/about/news/the-importance-of-self-care/</p>
-                <p class="ref"> Ting, C. Do This Everday To Lose Weight. (2019, August 8). YouTube. https://youtu.be/2MoGxae-zyo</p>
+                <p class="ref">5 Minute Self-Care Ideas. Journals of Discovery.  [Illustration] (n.d.). Pinterest.https://www.pinterest.ph/pin/18788523435613465/</p>
+                <p class="ref">Australian Government Department of Health. (n.d.). Purposeful activity - Hobbies. Head to Health. https://www.headtohealth.gov.au/meaningful-life/purposeful-activity/hobbies</p>
+                <p class="ref">Benefits of Sports for Mental Health. (2021, March 25). WebMD. https://www.webmd.com/mental-health/benefits-of-sports-for-mental-health</p>
+                <p class="ref">Emotional. [Icon] (n.d.). Flaticon. https://www.flaticon.com/premium-icon/reaction_2161500?term=emotional&page=1&position=3&page=1&position=3&related_id=2161500</p>
+                <p class="ref">Sleep and Mood | Need Sleep. (n.d.). Harvard. https://healthysleep.med.harvard.edu/need-sleep/whats-in-it-for-you/mood</p>
+                <p class="ref">The Self Care Kit. Vanessa Chau | Mental Health. [Illustration] (n.d.). Pinterest. https://www.pinterest.ph/pin/683280574705033726/ </p>
         </section>
         <br/>
         <footer> <p id=name> website made by K26 Erin Nicole A. Trinidad </p>

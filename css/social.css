@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-		<title>SSW Physical</title>
+		<title>SSW Social</title>
         <meta charset="UTF-8">
 		<meta name="author" content="Erin  Nicole A. Trinidad">
         <meta name="description" content="2nd Qtr Project">
@@ -57,13 +57,13 @@
             min-height: 190px;
             margin-bottom: 10px;
         }
-        #bath {
+        #pet {
             float: right;
         }
-        #water {
+        #socialmedia {
             float: right;
         }
-        #stretch {
+        #celebrate {
             float: right;
         }
         #one {
@@ -166,69 +166,62 @@
     </style>
     <body>
         <header>
-            <h1>Physical Care</h1>
+            <h1>Social Care</h1>
         </header>
         <nav>
             <a class="nav" href= "../index.html">home | </a>
+            <a class="nav" href= "physical.html">physical | </a>
             <a class="nav" href= "psychological.html">psychological | </a>
             <a class="nav" href= "emotional.html">emotional | </a>
             <a class="nav" href= "spiritual.html">spiritual | </a>
-            <a class="nav" href= "social.html">social </a>
         </nav>
         <section class="definition">
-                <img id="physical" src="../images/physical.png"> 
-                <h3>What is Physical Care and Why is it Important?</h3>
-                <p>Physical health is an essential part of self-care. It can boost your mood and clear your head. Physical activity is healthy for our bodies and minds as the body and the mind have a strong connection. It would be difficult to be in a good mood when you are not feeling good about your body.</p>
+                <img id="social" src="../images/social.png"> 
+                <h3>What is Social Care and Why is it Important?</h3>
+                <p>Social self-care involves our connections with other people as humans are social beings. Social self-care helps us maintain a healthy relationship with ourselves to extend it to others. Social self-care aims for you to build strong connections and emotional bonds with friends and family. It also aims for you to communicate well with other people verbally, mentally, and physically.</p>
         </section>
         <section class=example>
-            <h3>How can Physical Care be Practiced?</h3>
-            <div class="ex" id="one"> Good Personal Hygiene
+            <h3>How can Social Care be Practiced?</h3>
+            <div class="ex" id="one">Spend time with your pet
                 <br/>
-                <img id="bath" src="../images/bath.png">
+                <img id="pet" src="../images/pet.png">
                 <br/>
-                <p>Take a bath and change your underwear daily. Wash your hands after going to the restroom or before eating. Keep your hair neat always. Brush your teeth twice a day for two minutes and visit your dentist regularly. Cut your nails weekly and keep them short and clean.</p>
+                <p>Pets are known for giving their owners companionship. People have also discovered that they also help their owners built relationships with other people. This would happen as people would bond over their pets.</p>
             </div>
-            <div class="ex" id="two"> Eat a healthy meal 
+            <div class="ex" id="two">Join clubs  
                 <br/>
-                <img id="food" src="../images/food.png">
+                <img id="club" src="../images/club.png">
                 <br/>
-                <p>Eat a nutritious and well-balanced diet. Enjoy home-cooked meals. You should include more fruits and vegetables in your daily intake. Avoid junk foods, fried foods, and sweets. Eat your breakfast daily and drink your vitamins. </p>
+                <p>Joining clubs you are interested in will make you meet people that have that same interest. It is easier to make friends with people you have something in common with. Clubs would often have team-building activities which will help you to interact and cooperate with your fellow club members.</p>
             </div>
-            <div class="ex" id="one">Drink water
+            <div class="ex" id="one">Follow positive people on social media 
                 <br/>
-                <img id="water" src="../images/water.png">
+                <img id="socialmedia" src="../images/socialmedia.png">
                 <br/>
-                <p>Keep yourself hydrated. Drink 6-8 glasses of water per day. Bring a bottle of water everywhere you go and make it a habit to sip regularly to keep your body healthy and give you lots of energy every day. </p>
+                <p>Social media helps you overcome the distance and time barriers.  Social media allows you to connect and reconnect with others.Those positive people you follow will set as examples for you. Positive people also make you feel more comfortable in social media.</p>
             </div>
-            <div class="ex" id="two">Get 8-10 hours of sleep
+            <div class="ex" id="two">Talk to your friends
                 <br/>
-                <img id="night" src="../images/night.png">
+                <img id="talk" src="../images/talk.png">
                 <br/>
-                <p>Get at least 8-10 hours of sleep every night. Having enough sleep helps you concentrate. Develop an excellent nighttime sleeping routine for yourself. Turn off your phones and all electronic gadgets at least 30 minutes before your bedtime. </p>
+                <p>Your friends give you a sense of belonging. Your friends also introduce you to other people. Talking to them makes you happy and reduces your stress. They also improve your self-confidence and self-worth. </p>
             </div>
-            <div class="ex" id="one">Exercise at least thrice a week
+            <div class="ex" id="one">Celebrate the success of others
                 <br/>
-                <img id="stretch" src="../images/stretch.png">
+                <img id="celebrate" src="../images/celebrate.png">
                 <br/>
-                <p>Exercise at least thrice a week to keep your body healthy and reduce your stress levels. Avoid sitting down all day watching Netflix, movie marathons, or K-dramas or playing video games. You can include other fitness activities, such as yoga, biking, running, or playing badminton. There are a lot of good workout videos online. Check out the video below: </p>
-                <br/>
-                <div id="frame"> <iframe width="300" height="200"
-                src="https://www.youtube.com/embed/2MoGxae-zyo?autoplay=1&mute=1">
-                </iframe> </div>
+                <p>Celebrating someone else's success makes you selfless and considerate of other people's feelings. It shows how you care about that person and that want to maintain the bond you have with them. It even motivates you to strive for your own personal success.</p>
             </div>
         </section>
         <section class="references">
                 <h3>References:</h3>
-                <p class="ref">Calkins, W. (2020, October 20). Physical Self-Care: Self-Care Series (Part 1). Oregon Counseling. https://oregoncounseling.com/article/self-care-series-part-1-physical-self-care/ </p>
-                <p class="ref">Cloud, K. (n.d.). Care Bears Halloween Costume [Illustration]. Pinterest. https://www.pinterest.ph/pin/408631366187990371/ </p>
-                <p class="ref">Exercise Clipart Picture. (n.d.). [Illustration]. Clipart World. https://clipart.world/exercise-clipart/exercise-clipart-picture/ </p>
-                <p class="ref">Francois, M. L. (2016, October 23). 8 Quick Self-Care Strategies for College Students. Mindsoother Therapy Center. https://www.mindsoother.com/blog/8-quick-self-care-strategies-for-college-students</p>
-                <p class="ref">Glowiak, M. (2020, April 14). What is Self-Care and Why is it Important For You? Southern New Hampshire University. https://www.snhu.edu/about-us/newsroom/health/what-is-self-care </p>
-                <p class="ref">Self-Care. (n.d.). University of Toledo. https://www.utoledo.edu/studentaffairs/counseling/selfhelp/copingskills/selfcare.html </p>
-                <p class="ref">Keep It Tight Sisters. (n.d.). Self-care Is A Priority. [Illustration]. Pinterest. https://clipart.world/exercise-clipart/exercise-clipart-picture/ </p>
-                <p class="ref"> Meditation. [Icon]. (n.d.). Flaticon. https://www.flaticon.com/free-icon/meditation_3048398?term=exercise&page=1&position=35&page=1&position=35&related_id=3048398&origin=search</p>
-                <p class="ref"> The Importance of Self-Care. (n.d.). Perimeter Healthcare. https://www.perimeterhealthcare.com/about/news/the-importance-of-self-care/</p>
-                <p class="ref"> Ting, C. Do This Everday To Lose Weight. (2019, August 8). YouTube. https://youtu.be/2MoGxae-zyo</p>
+                <p class="ref">5 Minute Self-Care Ideas. Journals of Discovery.  [Illustration] (n.d.). Pinterest.https://www.pinterest.ph/pin/18788523435613465/</p>
+                <p class="ref">5 Tips to Practice Self-Care. [Illustration] (n.d.). Social Pakora. https://socialpakora.com/5-tips-to-practice-self-care/</p>
+                <p class="ref">Friendships: Enrich your life and improve your health. (2022, January 12). Mayo Clinic. https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/friendships/art-20044860?reDate=02022022</p>
+                <p class="ref">People. [Icon] (n.d.). Flaticon. https://www.flaticon.com/premium-icon/people_2994337?term=people&page=1&position=16&page=1&position=16&related_id=2994337&origin=search</p>
+                <p class="ref">Skerrett, P. J. (2015, May 6). Pets can help their humans create friendships, find social support. Harvard Health. https://www.health.harvard.edu/blog/pets-can-help-their-humans-create-friendships-find-social-support-201505067981</p>
+                <p class="ref">Haughty Chicken. [Illustration]. (2021, May 12). Twitter. https://twitter.com/haughtychicken/status/1392338437907251204</p>
+                <p class="ref">What is Social Self in Psychology? Complete Guide. (2020, July 8). Sapien Labs | Neuroscience | Human Brain Diversity Project. https://sapienlabs.org/mentalog/what-is-social-self/</p>
         </section>
         <br/>
         <footer> <p id=name> website made by K26 Erin Nicole A. Trinidad </p>

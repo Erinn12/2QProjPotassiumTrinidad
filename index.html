@@ -8,7 +8,7 @@
 		<meta name="keywords" content="HTML, CSS, JavaScript">
         <meta name="keywords" content="Potassium">
 		<meta name="date" content="11-06-2021">
-        <meta name="revised" content="12-30-2021">
+        <meta name="revised" content="02-03-2021">
 
 		<link rel="icon" href="icon.png" type="image/png">
     </head>
@@ -45,8 +45,20 @@
         h1 {
             font-family:monospace;
             color: #b3dee2;
+            position: relative;
             padding-top: 60px;
             padding-bottom: 80px;
+            animation-name: div3;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes div3 {
+            0%   {color:#efcfe3; left:0px; top:-15px;}
+            25%  {left:0px; top:15px;}
+            50% {color:#eaf2d7; left: 0px; top:-15px;}
+            75%  {left:0px; top:15px;}
+            100% {left:0px; top:-15px;}
         }
         #container {
             width:auto;
@@ -74,12 +86,46 @@
             text-align: justify;
         }
         footer {
-            position:absolute;
-            bottom:0;
-            width:100%;
-            height:20px;  
-            background-color:#b3dee2;
-            font-family:monospace;
+            position:fixed;
+            bottom: 0px;
+            width: 100%;
+            height: auto;  
+            background:#b3dee2;
+            margin-bottom: 0px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #sprite {
+            background: url('../images/sprite.png') no-repeat -307px -117px;
+            width: 50px;
+            height: 50px;
+            position:relative;
+            float:left;
+            margin-left: 20px;
+        }
+        #sprite2 {
+            background: url('../images/sprite.png') no-repeat -399px -376px;
+            width: 50px;
+            height: 50px;
+            position:relative;
+            float: left;
+            margin-left: 20px;
+        }
+        #sprite3 {
+            background: url('../images/sprite.png') no-repeat -214px -376px;
+            width: 50px;
+            height: 50px;
+            position:relative;
+            float:left;
+            margin-left: 20px;
+        }
+        .icons a:hover:before {
+            transform:rotate(360deg);
+            border-radius: 100%
+        }
+        #name {
+            font-family: monospace;
+            margin-left: 20px;
         }
     </style>
     <body>
@@ -107,4 +153,7 @@
         </section>
         <footer>website made by K26 Erin Nicole A. Trinidad</footer>
     </body>
+        <br/>
+        <footer> <p id=name> website made by K26 Erin Nicole A. Trinidad </p>
+            <br/> <a class="icons" id="sprite" href="https://www.instagram.com/artsyaffirmations/?hl=en"></a><p>@artsyaffirmations</p> <a class="icons" id="sprite2" href= "https://www.youtube.com/c/ChloeTing/featured"></a><p>@Chloe Ting</p> <a class="icons" id="sprite3" href="https://twitter.com/tinycarebot"></a> <p>@tinycarebot</p></footer>
 </html> 

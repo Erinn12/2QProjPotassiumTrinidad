@@ -8,7 +8,7 @@
 		<meta name="keywords" content="HTML, CSS, JavaScript">
         <meta name="keywords" content="Potassium">
 		<meta name="date" content="11-06-2021">
-        <meta name="revised" content="12-30-2021">
+        <meta name="revised" content="02-03-2021">
 
 		<link rel="icon" href="icon.png" type="image/png">
     </head>
@@ -68,14 +68,42 @@
         }
         #one {
             background-color: #b3dee2;
+            animation-name: div1;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes div1 {
+            0%  {background-color:#efcfe3;}
+            50% {background-color:#efcfe3;}
         }
         #two {
             background-color: #efcfe3;
+            animation-name: div2;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes div2 {
+            0%  {background-color:#b3dee2;}
+            50% {background-color:#b3dee2;}
         }
         h1 {
             text-align: center;
             font-family:monospace;
             color: #b3dee2;
+            position:relative;
+            animation-name: div3;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes div3 {
+            0%   {color:#efcfe3; left:0px; top:-15px;}
+            25%  {left:0px; top:15px;}
+            50% {color:#eaf2d7; left: 0px; top:-15px;}
+            75%  {left:0px; top:15px;}
+            100% {left:0px; top:-15px;}
         }
         h3 {
             font-family: monospace;
@@ -97,10 +125,43 @@
             position:fixed;
             bottom: 0px;
             width: 100%;
-            height:20px;  
+            height: auto;  
             background:#b3dee2;
-            font-family:monospace;
             margin-bottom: 0px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #sprite {
+            background: url('../images/sprite.png') no-repeat -307px -117px;
+            width: 50px;
+            height: 50px;
+            position:relative;
+            float:left;
+            margin-left: 20px;
+        }
+        #sprite2 {
+            background: url('../images/sprite.png') no-repeat -399px -376px;
+            width: 50px;
+            height: 50px;
+            position:relative;
+            float: left;
+            margin-left: 20px;
+        }
+        #sprite3 {
+            background: url('../images/sprite.png') no-repeat -214px -376px;
+            width: 50px;
+            height: 50px;
+            position:relative;
+            float:left;
+            margin-left: 20px;
+        }
+        .icons a:hover:before {
+            transform:rotate(360deg);
+            border-radius: 100%
+        }
+        #name {
+            font-family: monospace;
+            margin-left: 20px;
         }
     </style>
     <body>
@@ -109,9 +170,10 @@
         </header>
         <nav>
             <a class="nav" href= "../index.html">home | </a>
-            <a class="nav" href= "">emotional | </a>
-            <a class="nav" href= "">spiritual | </a>
-            <a class="nav" href= "">relationships </a>
+            <a class="nav" href= "psychological.html">psychological | </a>
+            <a class="nav" href= "emotional.html">emotional | </a>
+            <a class="nav" href= "spiritual.html">spiritual | </a>
+            <a class="nav" href= "social.html">social </a>
         </nav>
         <section class="definition">
                 <img id="physical" src="../images/physical.png"> 
@@ -158,15 +220,18 @@
         <section class="references">
                 <h3>References:</h3>
                 <p class="ref">Calkins, W. (2020, October 20). Physical Self-Care: Self-Care Series (Part 1). Oregon Counseling. https://oregoncounseling.com/article/self-care-series-part-1-physical-self-care/ </p>
-                <p class="ref"> Cloud, K. (n.d.). Care Bears Halloween Costume [Illustration]. Pinterest. https://www.pinterest.ph/pin/408631366187990371/ </p>
+                <p class="ref">Cloud, K. (n.d.). Care Bears Halloween Costume [Illustration]. Pinterest. https://www.pinterest.ph/pin/408631366187990371/ </p>
                 <p class="ref">Exercise Clipart Picture. (n.d.). [Illustration]. Clipart World. https://clipart.world/exercise-clipart/exercise-clipart-picture/ </p>
                 <p class="ref">Francois, M. L. (2016, October 23). 8 Quick Self-Care Strategies for College Students. Mindsoother Therapy Center. https://www.mindsoother.com/blog/8-quick-self-care-strategies-for-college-students</p>
                 <p class="ref">Glowiak, M. (2020, April 14). What is Self-Care and Why is it Important For You? Southern New Hampshire University. https://www.snhu.edu/about-us/newsroom/health/what-is-self-care </p>
-                <p class="ref">Self care health concept. (n.d.). [Illustration]. Freepik. https://www.freepik.com/free-vector/self-care-health-concept_7775310.htm </p>
                 <p class="ref">Self-Care. (n.d.). University of Toledo. https://www.utoledo.edu/studentaffairs/counseling/selfhelp/copingskills/selfcare.html </p>
                 <p class="ref">Keep It Tight Sisters. (n.d.). Self-care Is A Priority. [Illustration]. Pinterest. https://clipart.world/exercise-clipart/exercise-clipart-picture/ </p>
+                <p class="ref"> Meditation. [Icon]. (n.d.). Flaticon. https://www.flaticon.com/free-icon/meditation_3048398?term=exercise&page=1&position=35&page=1&position=35&related_id=3048398&origin=search</p>
                 <p class="ref"> The Importance of Self-Care. (n.d.). Perimeter Healthcare. https://www.perimeterhealthcare.com/about/news/the-importance-of-self-care/</p>
+                <p class="ref"> Ting, C. Do This Everday To Lose Weight. (2019, August 8). YouTube. https://youtu.be/2MoGxae-zyo</p>
         </section>
-        <footer>website made by K26 Erin Nicole A. Trinidad</footer>
+        <br/>
+        <footer> <p id=name> website made by K26 Erin Nicole A. Trinidad </p>
+            <br/> <a class="icons" id="sprite" href="https://www.instagram.com/artsyaffirmations/?hl=en"></a><p>@artsyaffirmations</p> <a class="icons" id="sprite2" href= "https://www.youtube.com/c/ChloeTing/featured"></a><p>@Chloe Ting</p> <a class="icons" id="sprite3" href="https://twitter.com/tinycarebot"></a> <p>@tinycarebot</p></footer>
     </body>
 </html> 
