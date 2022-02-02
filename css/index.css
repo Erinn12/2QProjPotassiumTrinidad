@@ -145,10 +145,11 @@
             <p> Click on the boxes to know more about each of the aspects!</p>
             <div id="container">
                 <a class="pages" href="htdocs/physical.html">Physical</a> 
-                <div class="pages">Psychological</div> 
-                <div class="pages">Emotional</div>
-                <div class="pages">Spiritual</div> 
-                <div class="pages">Relationships</div>
+                <a class="pages" href="htdocs/physical.html">Physical</a> 
+                <a class="pages" href="htdocs/psychological.html">Psychological</a>
+		<a class="pages" href="htdocs/emotional.html">Emotional</a>
+		<a class="pages" href="htdocs/spiritual.html">Spiritual</a>
+		<a class="pages" href="htdocs/social.html">Social</a>
             </div>
         </section>
                 <br/>
