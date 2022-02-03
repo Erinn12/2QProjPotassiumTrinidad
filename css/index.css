@@ -50,7 +50,7 @@
             padding-bottom: 80px;
             animation-name: div3;
             animation-duration: 2s;
-            animation-iteration-count: infinite;
+            animation-iteration-count: 3;
             animation-direction: alternate;
         }
         @keyframes div3 {
@@ -95,15 +95,14 @@
             display: flex;
             justify-content: space-around;
         }
-        #sprite {
-            background: url('images/sprite.png') no-repeat -307px -117px;
+	#sprite {
+            background: url('images/sprite.png') -307px -117px;
             width: 50px;
             height: 50px;
-            position:relative;
             float:left;
             margin-left: 20px;
         }
-        #sprite a:hover{
+        #sprite:hover{
             background: url('images/sprite.png') no-repeat -122px -28px;
         }
         #sprite2 {
@@ -114,7 +113,7 @@
             float: left;
             margin-left: 20px;
         }
-        #sprite2 a:hover{
+        #sprite2:hover{
             background: url('images/sprite.png') no-repeat 214px -288px;
         }
         #sprite3 {
@@ -124,8 +123,9 @@
             position:relative;
             float:left;
             margin-left: 20px;
+	    margin-left: 20px;
         }
-        #sprite3 a:hover{
+        #sprite3:hover{
             background: url('images/sprite.png') no-repeat -28px -288px;
         }
         #name {
