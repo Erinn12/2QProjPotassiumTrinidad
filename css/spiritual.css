@@ -156,13 +156,13 @@
             margin-left: 20px;
         }
         #sprite:hover{
-            background: url('images/sprite.png') -122px -28px;
+            background: url('../images/sprite.png') -122px -28px;
         }
         #sprite2:hover{
-            background: url('images/sprite.png') -214px -288px;
+            background: url('../images/sprite.png') -214px -288px;
 	    }
         #sprite3:hover{
-            background: url('images/sprite.png') -28px -288px;
+            background: url('../images/sprite.png') -28px -288px;
         }
         #name {
             font-family: monospace;
