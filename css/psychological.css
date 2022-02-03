@@ -156,13 +156,13 @@
             margin-left: 20px;
         }
         #sprite:hover{
-            background: url('images/sprite.png') -122px -28px;
+            background: url('../images/sprite.png') -122px -28px;
         }
         #sprite2:hover{
-            background: url('images/sprite.png') -214px -288px;
+            background: url('../images/sprite.png') -214px -288px;
 	    }
         #sprite3:hover{
-            background: url('images/sprite.png') -28px -288px;
+            background: url('../images/sprite.png') -28px -288px;
         }
         #name {
             font-family: monospace;
@@ -174,7 +174,7 @@
             <h1>Psychological Care</h1>
         </header>
         <nav>
-            <a class="nav" href= "../index.html">home | </a>
+            <a class="nav" href= "index.html">home | </a>
             <a class="nav" href= "physical.html">physical | </a>
             <a class="nav" href= "emotional.html">emotional | </a>
             <a class="nav" href= "spiritual.html">spiritual | </a>
