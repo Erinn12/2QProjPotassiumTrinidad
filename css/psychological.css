@@ -95,7 +95,7 @@
             position:relative;
             animation-name: div3;
             animation-duration: 2s;
-            animation-iteration-count: infinite;
+            animation-iteration-count: 3;
             animation-direction: alternate;
         }
         @keyframes div3 {
@@ -155,9 +155,14 @@
             float:left;
             margin-left: 20px;
         }
-        .icons a:hover:before{
-            transform:rotate(360deg);
-            border-radius: 100%;
+        #sprite:hover{
+            background: url('images/sprite.png') -122px -28px;
+        }
+        #sprite2:hover{
+            background: url('images/sprite.png') -214px -288px;
+	    }
+        #sprite3:hover{
+            background: url('images/sprite.png') -28px -288px;
         }
         #name {
             font-family: monospace;
@@ -225,8 +230,8 @@
         </section>
         <br/>
         <footer> <p id=name> website made by K26 Erin Nicole A. Trinidad </p> 
-		<a class="icons" id="sprite" href="https://www.instagram.com/artsyaffirmations/?hl=en"></a><p>@artsyaffirmations</p>
-		<a class="icons" id="sprite2" href= "https://www.youtube.com/c/ChloeTing/featured"></a><p>@Chloe Ting</p> 
-		<a class="icons" id="sprite3" href="https://twitter.com/tinycarebot"></a> <p>@tinycarebot</p></footer>
+		<a id="sprite" href="https://www.instagram.com/artsyaffirmations/?hl=en"></a><p>@artsyaffirmations</p>
+		<a id="sprite2" href= "https://www.youtube.com/c/ChloeTing/featured"></a><p>@Chloe Ting</p> 
+		<a id="sprite3" href="https://twitter.com/tinycarebot"></a> <p>@tinycarebot</p></footer>
 </body>
 </html>
